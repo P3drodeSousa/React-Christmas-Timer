@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Timer = () => {
   const calculateTimeLeft = () => {
-    const difference = new Date("2020-12-25") - new Date();
+    const difference = new Date("2021-12-25") - new Date();
     let timeLeft = {};
 
     if (difference > 0) {
